@@ -31,6 +31,10 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 alias ss="open -a /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
 
 
+alias matlab="/Applications/MATLAB_R2015b.app/bin/matlab -nodesktop -nosplash"
+alias vlc="open -a "VLC" "
+alias opj="open *.jpg"
+alias opJ="open *.JPG"
 
 
 # NCL stuff
