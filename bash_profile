@@ -31,6 +31,10 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 alias ss="open -a /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
 
 
+
+#combine pdfs                                                                                                                                        
+alias pdfconcat="/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py"
+
 alias matlab="/Applications/MATLAB_R2015b.app/bin/matlab -nodesktop -nosplash"
 alias vlc="open -a "VLC" "
 alias opj="open *.jpg"
