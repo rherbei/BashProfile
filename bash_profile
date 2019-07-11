@@ -45,7 +45,7 @@ alias opJ="open *.JPG"
 export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/Cellar/gcc48/4.8.4/lib/gcc/4.8/
 export NCARG_ROOT=/usr/local/ncl-6.2.1
 export PATH=$NCARG_ROOT/bin:$PATH
-
+export PATH=$PATH:/Library/TeX/texbin
 
 
 #-----#
